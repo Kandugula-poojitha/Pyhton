@@ -1,0 +1,32 @@
+#if the number is more than 1 digit it should add the digits
+"""
+a = "poojitha"
+print(a[0])
+print(a[6])
+print(a[0:8])
+
+var=input("enter your  3 digit value")
+var1=var[0]
+var2=var[1]
+var3=var[2]
+var4= int(var1)+int(var2)+int(var3)
+print(" The addition of your  3 digit number is " , var4)
+
+print(2**3)
+"""
+
+###############################
+
+weight=input("enter weight in kg")
+height=input("enter height  in m")
+bmi=(int(weight)/float(height)**2)
+print(round(bmi))
+print( round(bmi,0))
+
+
+
+
+
+
+
+
